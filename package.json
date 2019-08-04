@@ -1,0 +1,9 @@
+{
+  "name": "gulp4-webpack",
+  "version": "1.0.0",
+  "description": "Gulp 4 + Webpack with yarn, ejs, sass and a bunch of stuff",
+  "main": "index.js",
+  "repository": "https://github.com/phoenixVS/gulp4-webpack.git",
+  "author": "Valentin Shapoval",
+  "license": "MIT"
+}
