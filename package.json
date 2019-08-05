@@ -1,9 +1,36 @@
 {
-  "name": "gulp4-webpack",
-  "version": "1.0.0",
-  "description": "Gulp 4 + Webpack with yarn, ejs, sass and a bunch of stuff",
-  "main": "index.js",
-  "repository": "https://github.com/phoenixVS/gulp4-webpack.git",
-  "author": "Valentin Shapoval",
-  "license": "MIT"
+    "name": "gulp4-webpack",
+    "version": "1.0.0",
+    "description": "Gulp 4 + Webpack with yarn, ejs, sass and a bunch of stuff",
+    "main": "index.js",
+    "repository": "https://github.com/phoenixVS/gulp4-webpack.git",
+    "author": "Valentin Shapoval",
+    "license": "MIT",
+    "devDependencies": {
+        "autoprefixer": "^9.6.1",
+        "browser-sync": "^2.26.7",
+        "cssnano": "^4.1.10",
+        "del": "^5.0.0",
+        "eslint": "^6.1.0",
+        "gulp": "^4.0.2",
+        "gulp-cli": "^2.2.0",
+        "gulp-ejs": "^4.1.1",
+        "gulp-postcss": "^8.0.0",
+        "gulp-pug": "^4.0.1",
+        "gulp-rename": "^1.4.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-webpack": "^1.5.0",
+        "normalize.css": "^8.0.1",
+        "postcss-advanced-variables": "^3.0.0",
+        "postcss-easy-import": "^3.0.0",
+        "postcss-nested": "^4.1.2",
+        "postcss-scss": "^2.0.0",
+        "terser-webpack-plugin": "^1.4.1",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "webpack": "^4.39.1",
+        "webpack-cli": "^3.3.6"
+    },
+    "dependencies": {
+        "eslint-plugin-react": "^7.14.3"
+    }
 }

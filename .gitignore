@@ -1,0 +1,9 @@
+yarn.lock
+# .o and .a as object and archive files
+*.[oa]
+# files ends with tilde as the temporary
+*~
+# folder with compiled project
+dist/*
+# folder with installed modules
+node_modules/
